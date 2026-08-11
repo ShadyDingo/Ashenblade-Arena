@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6c453" />
+  <title>Ashenblade Arena</title>
+  <meta name="description" content="Ashenblade Arena — a classless online high-fantasy RPG." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="world-backdrop" aria-hidden="true">
+    <div class="sun-glow"></div>
+    <div class="cloud cloud-a"></div>
+    <div class="cloud cloud-b"></div>
+    <div class="mountain mountain-a"></div>
+    <div class="mountain mountain-b"></div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Ashenblade Arena home">
+      <span class="brand-mark">A</span>
+      <span>
+        <strong>Ashenblade Arena</strong>
+        <small>Forge your legend. Discover the world.</small>
+      </span>
+    </a>
+    <div id="account-controls"></div>
+  </header>
+
+  <main id="app" class="app-shell" aria-live="polite">
+    <section class="loading-card">
+      <div class="rune-spinner" aria-hidden="true"></div>
+      <p>Opening the gates to Cinderwatch…</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Pre-alpha foundation</span>
+    <span class="footer-dot">◆</span>
+    <span>Persistent world prototype</span>
+  </footer>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
